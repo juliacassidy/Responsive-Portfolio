@@ -24,7 +24,7 @@ nav.box a {
 }
 
 body {
-    background: lavender;
+    background:lavender;
     margin: 0px;
     padding: 0px;
 }
@@ -123,3 +123,27 @@ div.portbar{
     padding: 15px;
 }
 
+
+
+@media (max-width: 980 px;) {
+    .container {
+        width: 50%;
+        margin: auto;
+        clear: both;
+    }
+
+@media screen (max width: 768 px;){
+    .container {
+        width: 50%;
+        margin: auto;
+        clear: both;
+    }
+
+
+
+@media screen (max width: 640 px;){
+    .container {
+        width: 50%;
+        margin: auto;
+        clear: both;
+    }
