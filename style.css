@@ -2,14 +2,14 @@ nav.box {
     display: inline-flex;
     justify-content: flex-end;
     flex-flow: row nowrap;
-    width: 900px;
     align-items: center;
     margin: auto;
+    width: 100%;
 }
 
 nav.box a {
-    position: relative;
-    width: auto;
+    position: static;
+    width: 80%;
     height: auto;
     left: 7%;
     font-size: 20px;
@@ -124,31 +124,26 @@ div.portbar{
 }
 
 
+/* media screens start here, dont touch above */
 
 @media screen and (max-width: 980px) {
     div.body {
         width: 800px;
-
     }
-
-    div.navigation {
-
-        width: 80%;
-    }
-
 }
+
+
+
 
 @media screen and (max-width: 768px) {
     div.body {
         width: 550px;
     }
 
-    div.navigation {
-
-        width: 80%;
-    }
-
 }
+
+
+
 
 @media screen and (max-width: 640px) {
     div.body {
@@ -158,16 +153,16 @@ div.portbar{
     h1 {
         width: 100%;
         text-align: center;
-    }
 
-    div.navigation {
-
-        width: 80%;
     }
-    
-    #bio-image {
+        #bio-image  {
         width: 80%;
         height: 80%;
     }
 
+    .header {
+        position: static;
+    }
+
 }
+
