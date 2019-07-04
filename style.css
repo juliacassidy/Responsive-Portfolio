@@ -125,25 +125,14 @@ div.portbar{
 
 
 
-@media (min-width: 768px) and (max-width: 980px) {
-    .container {
-        width: 50%;
-        margin: auto;
-        clear: both;
-    }
+@media screen and (max-width: 980px) {
 
-@media (min-width: 641px) and (max-width: 768 px){
-    .container {
-        width: 50%;
-        margin: auto;
-        clear: both;
-    }
+}
 
+@media screen and (max-width: 768px) {
 
+}
 
-@media (min-width: 10px) and (max -width: 640px;){
-    .container {
-        width: 50%;
-        margin: auto;
-        clear: both;
-    }
+@media screen and (max-width: 640px;) {
+    
+}
