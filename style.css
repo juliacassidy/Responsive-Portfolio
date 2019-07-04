@@ -131,13 +131,21 @@ div.portbar{
 
     }
 
+    div.navigation {
+
+        width: 80%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
     div.body {
         width: 550px;
-    
-        
+    }
+
+    div.navigation {
+
+        width: 80%;
     }
 
 }
@@ -145,7 +153,16 @@ div.portbar{
 @media screen and (max-width: 640px) {
     div.body {
         width: 350px;
-        
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.navigation {
+
+        width: 80%;
     }
     
     #bio-image {
