@@ -34,7 +34,7 @@ div.body {
     background-color: #ffffff;
     margin: auto;
     width: 960px;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 2;
 }
@@ -94,7 +94,7 @@ hr {
     padding-top: 10px;
     font-style: italic;
     text-align: center;
-    background-color:white;
+    background-color: black;
 }
 
 footer p {
@@ -126,13 +126,31 @@ div.portbar{
 
 
 @media screen and (max-width: 980px) {
+    div.body {
+        width: 800px;
+
+    }
 
 }
 
 @media screen and (max-width: 768px) {
+    div.body {
+        width: 550px;
+    
+        
+    }
 
 }
 
-@media screen and (max-width: 640px;) {
+@media screen and (max-width: 640px) {
+    div.body {
+        width: 350px;
+        
+    }
     
+    #bio-image {
+        width: 80%;
+        height: 80%;
+    }
+
 }
